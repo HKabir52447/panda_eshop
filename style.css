@@ -13,16 +13,6 @@ header{
     color: rgba(34, 32, 32, 0.548);
     padding-left: 10px;
 }
-@media only screen and (max-width:1024px){
-    .searchbar{
-        width: 350px; 
-    }
-}
-@media only screen and (max-width:576px){
-    .searchbar{
-        display: none; 
-    }
-}
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: #000;
 }
@@ -50,8 +40,16 @@ header{
     border: none;
     color: #fff;
 }
-@media only screen and (max-width:768px){
-    
+/* resposive style */
+@media only screen and (max-width:1024px){
+    .searchbar{
+        width: 350px; 
+    }
+}
+@media only screen and (max-width:576px){
+    .searchbar{
+        display: none; 
+    }
 }
 
 
